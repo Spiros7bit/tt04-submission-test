@@ -42,6 +42,8 @@ A pseudorandom number generator (PRNG), also known as a deterministic random bit
 | 12    | NONE | SEGMENT1 F |
 | 13    | NONE | SEGMENT1 G |
 
+![2d-photo](https://github.com/Spiros7bit/tt04-submission-test/blob/main/2d.png)
+This is the 2d photo of gds file of chip
 
 
 ## Test
