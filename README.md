@@ -60,8 +60,8 @@ TinyTapeout is an educational project that aims to make it easier and cheaper th
 
 Please see the instructions for:
 
-* [Enabling GitHub Actions](https://tinytapeout.com/faq/#when-i-commit-my-change-the-gds-action-isnt-running)
-* [Enabling GitHub Pages](https://tinytapeout.com/faq/#my-github-action-is-failing-on-the-pages-part)
+- [Enabling GitHub Actions](https://tinytapeout.com/faq/#when-i-commit-my-change-the-gds-action-isnt-running)
+- [Enabling GitHub Pages](https://tinytapeout.com/faq/#my-github-action-is-failing-on-the-pages-part)
 
 ## How does it work?
 
@@ -69,11 +69,12 @@ Please see the instructions for:
 
 ## Resources
 
-* [FAQ](https://tinytapeout.com/faq/)
-* [Digital design lessons](https://tinytapeout.com/digital_design/)
-* [Learn how semiconductors work](https://tinytapeout.com/siliwiz/)
-* [Join the community](https://discord.gg/rPK2nSjxy8)
+- [FAQ](https://tinytapeout.com/faq/)
+- [Digital design lessons](https://tinytapeout.com/digital_design/)
+- [Learn how semiconductors work](https://tinytapeout.com/siliwiz/)
+- [Join the community](https://discord.gg/rPK2nSjxy8)
 
 ## What next?
 
-* Share your GDS on Twitter, tag it [#tinytapeout](https://twitter.com/hashtag/tinytapeout?src=hashtag_click) and [link me](https://twitter.com/matthewvenn)!
+- Submit your design to the next shuttle [on the website](https://tinytapeout.com/#submit-your-design), the closing date is 8th September.
+- Share your GDS on Twitter, tag it [#tinytapeout](https://twitter.com/hashtag/tinytapeout?src=hashtag_click) and [link me](https://twitter.com/matthewvenn)!
