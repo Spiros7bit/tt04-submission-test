@@ -12,7 +12,7 @@
 
 **/
 
-module top(
+module tt_um_prng(
 		input EN, CLK,
 		output wire [7:0] OUT,
 		output wire [6:0] HEX0, HEX1,
