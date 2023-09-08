@@ -4,7 +4,8 @@
 
 ### International Hellenic University [(IHU)](https://www.iee.ihu.gr/) Thessaloniki, Sindos
 #### Mentor: Ioannis Intzes
-##### Students: Spyrdon Tsioupros, Eumorfia Sidiroglou, Georgios Vellios
+##### Students: Spyridon Tsioupros, Eumorfia Sidiroglou, Georgios Vellios
+
 
 # What is a Pseudo Random Number Generator 
 
@@ -12,38 +13,36 @@ This circuit is a Pseudo Random Number Generator [(PRNG)](https://en.wikipedia.o
 
 A pseudorandom number generator (PRNG), also known as a deterministic random bit generator (DRBG), is an algorithm for generating a sequence of numbers whose properties approximate the properties of sequences of random numbers. The PRNG-generated sequence is not truly random, because it is completely determined by an initial value, called the PRNG's seed (which may include truly random values).
 
-
-
 ###### There are also Real Random Number Generator [(TRNG)](https://en.wikipedia.org/wiki/Hardware_random_number_generator)
-
 ###### is a device that generates random numbers from a physical process capable of producing entropy (in other words, the device always has access to a physical entropy source)
+
 
 # Implementation details
 
--In this project as source of pseudo-randomness we used two LFSR's. One that works with 8 bit and one with 16 bit. The circuit don't have input data,  just 1 clock and 1 enable pin. The output will be on a 7 segment display, so 14 output pins.  <br />
--The 16 bit LFSR produces the input of a 16-to-8 multiplexer and the 8 bit LFSR produces the selection bits of 16-to-8 multiplexer.  <br />
+-In this project as source of pseudo-randomness we used 2 LFSR's. One that works with 8-bit and one with 16-bit. The circuit don't have input data,  just 1 clock and 1 enable pin. The output will be on two 7 segment displays, so 14 output pins. <br />
+-The 16-bit LFSR produces the input of a 16-to-8 multiplexer and the 8-bit LFSR produces the selection bits of 16-to-8 multiplexer.  <br />
 -The 16-to-8 multiplexer is implemented by 8 2-to-1 multiplexers.  <br />
--The final stage is the conversion of the data as if to be readable by 2 7 segment displays.
+-In the final stage the data are converted to BCD format and are shown in two 7-segment displays. The format is hexadecimal.
 
 | # | Input  | Output |
 | ----- | ----- | ------ |
-| 0     | CLK | SEGMENT0 A |
-| 1     | EN | SEGMENT0 B |
-| 2     | RST_N | SEGMENT0 C |
-| 3     | NONE | SEGMENT0 D |
-| 4     | NONE | SEGMENT0 E |
-| 5     | NONE | SEGMENT0 F |
-| 6     | NONE | SEGMENT0 G |
-| 7     | NONE | SEGMENT1 A |
-| 8     | NONE | SEGMENT1 B |
-| 9     | NONE | SEGMENT1 C |
-| 10    | NONE | SEGMENT1 D |
-| 11    | NONE | SEGMENT1 E |
-| 12    | NONE | SEGMENT1 F |
-| 13    | NONE | SEGMENT1 G |
+| 0     | CLK | Segment0 A |
+| 1     | EN | Segment0 B |
+| 2     | RST_N | Segment0 C |
+| 3     | NONE | Segment0 D |
+| 4     | NONE | Segment0 E |
+| 5     | NONE | Segment0 F |
+| 6     | NONE | Segment0 G |
+| 7     | NONE | Segment1 A |
+| 8     | NONE | Segment1 B |
+| 9     | NONE | Segment1 C |
+| 10    | NONE | Segment1 D |
+| 11    | NONE | Segment1 E |
+| 12    | NONE | Segment1 F |
+| 13    | NONE | Segment1 G |
 
-![2d-photo](https://github.com/Spiros7bit/tt04-submission-test/blob/main/2d.png)
 This is the 2d photo of gds file of chip
+![2d-photo](https://github.com/Spiros7bit/tt04-submission-test/blob/main/2d.png)
 
 
 ## Test
