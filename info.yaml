@@ -18,8 +18,6 @@ yaml_version: 4
 
 # As everyone will have access to all designs, try to make it easy for someone new to your design to know what
 # it does and how to operate it. This info will be automatically collected and used to make a datasheet for the chip.
-#
-# Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 documentation: 
   author:       "International Hellenic University - Department of Information and Electronic Engineering"
   title:        "Pseudo Random Number Generator"
